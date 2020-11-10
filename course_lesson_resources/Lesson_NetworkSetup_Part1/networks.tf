@@ -60,7 +60,6 @@ resource "aws_subnet" "subnet_2" {
 
 
 #Create subnet in us-west-2
-#This will be au-southeast for me
 resource "aws_subnet" "subnet_1_oregon" {
   provider   = aws.region-worker
   vpc_id     = aws_vpc.vpc_master_oregon.id
